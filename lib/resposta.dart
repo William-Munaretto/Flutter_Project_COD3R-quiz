@@ -16,7 +16,7 @@ class Resposta extends StatelessWidget {
             backgroundColor: MaterialStateProperty.resolveWith((states) => Colors.red),
         ),
         onPressed: quandoSelecionado,
-        child: Text(this.texto)
+        child: Text(this.texto),
     ),
     );
   }
